@@ -1,0 +1,1 @@
+exec env QT_SCALE_FACTOR=0.5 QT_QPA_PLATFORMTHEME=kde /usr/bin/krita --nosplash "$@"
