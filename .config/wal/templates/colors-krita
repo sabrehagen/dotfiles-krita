@@ -1,28 +1,133 @@
-[ColorEffects:Active]
-ChangeSelectionColor = true
+[ColorEffects:Disabled]
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.1
+IntensityEffect=2
 
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
 
 [Colors:Button]
-BackgroundNormal     = {color0.rgb}
-ForegroundNormal     = {color15.rgb}
+BackgroundAlternate={color8.rgb}
+BackgroundNormal={color0.rgb}
+DecorationFocus={color1.rgb}
+DecorationHover={color1.rgb}
+ForegroundActive={color6.rgb}
+ForegroundInactive={color2.rgb}
+ForegroundLink={color4.rgb}
+ForegroundNegative={color1.rgb}
+ForegroundNeutral={color3.rgb}
+ForegroundNormal={color15.rgb}
+ForegroundPositive={color2.rgb}
+ForegroundVisited={color5.rgb}
 
+[Colors:Header]
+BackgroundAlternate={color0.rgb}
+BackgroundNormal={color8.rgb}
+DecorationFocus={color1.rgb}
+DecorationHover={color1.rgb}
+ForegroundActive={color6.rgb}
+ForegroundInactive={color2.rgb}
+ForegroundLink={color4.rgb}
+ForegroundNegative={color1.rgb}
+ForegroundNeutral={color3.rgb}
+ForegroundNormal={color15.rgb}
+ForegroundPositive={color2.rgb}
+ForegroundVisited={color5.rgb}
+
+[Colors:Header][Inactive]
+BackgroundAlternate={color8.rgb}
+BackgroundNormal={color0.rgb}
+DecorationFocus={color1.rgb}
+DecorationHover={color1.rgb}
+ForegroundActive={color6.rgb}
+ForegroundInactive={color2.rgb}
+ForegroundLink={color4.rgb}
+ForegroundNegative={color1.rgb}
+ForegroundNeutral={color3.rgb}
+ForegroundNormal={color15.rgb}
+ForegroundPositive={color2.rgb}
+ForegroundVisited={color5.rgb}
 
 [Colors:Selection]
-BackgroundNormal     = {color12.rgb}
-ForegroundNormal     = {color0.rgb}
+BackgroundAlternate={color8.rgb}
+BackgroundNormal={color1.rgb}
+DecorationFocus={color1.rgb}
+DecorationHover={color1.rgb}
+ForegroundActive={color15.rgb}
+ForegroundInactive={color2.rgb}
+ForegroundLink={color4.rgb}
+ForegroundNegative={color1.rgb}
+ForegroundNeutral={color3.rgb}
+ForegroundNormal={color15.rgb}
+ForegroundPositive={color2.rgb}
+ForegroundVisited={color5.rgb}
 
+[Colors:Tooltip]
+BackgroundAlternate={color0.rgb}
+BackgroundNormal={color8.rgb}
+DecorationFocus={color1.rgb}
+DecorationHover={color1.rgb}
+ForegroundActive={color6.rgb}
+ForegroundInactive={color2.rgb}
+ForegroundLink={color4.rgb}
+ForegroundNegative={color1.rgb}
+ForegroundNeutral={color3.rgb}
+ForegroundNormal={color15.rgb}
+ForegroundPositive={color2.rgb}
+ForegroundVisited={color5.rgb}
 
 [Colors:View]
-BackgroundAlternate  = {color8.rgb}
-BackgroundNormal     = {color0.rgb}
-ForegroundLink       = {color10.rgb}
-ForegroundNormal     = {color15.rgb}
-
+BackgroundAlternate={color8.rgb}
+BackgroundNormal={color0.rgb}
+DecorationFocus={color1.rgb}
+DecorationHover={color1.rgb}
+ForegroundActive={color6.rgb}
+ForegroundInactive={color2.rgb}
+ForegroundLink={color4.rgb}
+ForegroundNegative={color1.rgb}
+ForegroundNeutral={color3.rgb}
+ForegroundNormal={color15.rgb}
+ForegroundPositive={color2.rgb}
+ForegroundVisited={color5.rgb}
 
 [Colors:Window]
-BackgroundNormal     = {color0.rgb}
-ForegroundNormal     = {color15.rgb}
-
+BackgroundAlternate={color8.rgb}
+BackgroundNormal={color0.rgb}
+DecorationFocus={color1.rgb}
+DecorationHover={color1.rgb}
+ForegroundActive={color6.rgb}
+ForegroundInactive={color2.rgb}
+ForegroundLink={color4.rgb}
+ForegroundNegative={color1.rgb}
+ForegroundNeutral={color3.rgb}
+ForegroundNormal={color15.rgb}
+ForegroundPositive={color2.rgb}
+ForegroundVisited={color5.rgb}
 
 [General]
-Name                 = KritaWal
+ColorScheme=wal
+Name=wal
+shadeSortColumn=true
+
+[KDE]
+contrast=4
+
+[WM]
+activeBackground={color0.rgb}
+activeBlend={color15.rgb}
+activeForeground={color15.rgb}
+inactiveBackground={color8.rgb}
+inactiveBlend={color2.rgb}
+inactiveForeground={color2.rgb}
